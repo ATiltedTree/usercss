@@ -1,29 +1,43 @@
 /* ==UserStyle==
 @name           Github Wide
 @namespace      ATiltedTree
-@homepageURL https://github.com/ATiltedTree/usercss
-@updateURL   https://raw.githubusercontent.com/ATiltedTree/usercss/master/github-wide.user.css
+@homepageURL    https://github.com/ATiltedTree/usercss
+@updateURL      https://raw.githubusercontent.com/ATiltedTree/usercss/master/github-wide.user.css
 @version        1.0.0
-@license     MIT
+@license        MIT
 @description    Makes github wide
 @author         ATiltedTree
 ==/UserStyle== */
 @-moz-document regexp("^https?://((gist|guides|help|lab|launch-editor|raw|resources|status|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$") {
-    .container-lg {
-        max-width: 100%;
-    }
-    .repohead-details-container {
-        width: 100%;
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-    }
-    .reponav {
-        width: 100%;
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-    }
-    .pagehead {
-        padding-right: 16px !important;
-        padding-left: 16px !important;
-    }
+  .container-lg {
+    max-width: 100%;
+  }
+  .container-xl {
+    max-width: 100%;
+  }
+  .new-repo-container {
+    margin: 40px auto 0;
+    width: 100%;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+  }
+  .repohead-details-container {
+    width: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .reponav {
+    width: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .pagehead {
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+  }
+  .container {
+    width: 100%;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+  }
 }
