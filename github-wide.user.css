@@ -23,13 +23,11 @@
   }
   .repohead-details-container {
     width: 100%;
-    padding-right: 0px !important;
-    padding-left: 0px !important;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
   }
   .reponav {
     width: 100%;
-    padding-right: 0px !important;
-    padding-left: 0px !important;
   }
   .pagehead {
     padding-right: 16px !important;
