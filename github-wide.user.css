@@ -8,7 +8,7 @@
 @description    Makes github wide
 @author         ATiltedTree
 ==/UserStyle== */
-@-moz-document regexp("^https?://((gist|guides|help|lab|launch-editor|raw|resources|status|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$") {
+@-moz-document regexp("^https?://((gist|guides|help|lab|launch-editor|raw|resources|status|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$"), domain("githubusercontent.com"), domain("graphql-explorer.githubapp.com"), domain("www.githubstatus.com") {
   .container-lg {
     max-width: 100%;
   }
