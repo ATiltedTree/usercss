@@ -1,0 +1,171 @@
+/* ==UserStyle==
+@name           ArchLinux Dark
+@namespace      ATiltedTree
+@homepageURL    https://github.com/ATiltedTree/usercss
+@updateURL      https://raw.githubusercontent.com/ATiltedTree/usercss/master/github-wide.user.css
+@version        1.0.0
+@license        MIT
+@description    A dark theme for the ArchLinux website
+@author         ATiltedTree
+==/UserStyle== */
+@-moz-document regexp("^https?:\\/\\/((aur|www|bbs|bugs|security)\\.)?archlinux\\.org\\/.*$") {
+  /* Main page */
+  a:link {
+    color: #5cc4ff;
+  }
+  body,
+  #punindex {
+    background-color: #222 !important;
+    color: #ddd !important;
+  }
+  pre {
+    background-color: #333 !important;
+    border: 1px solid #444;
+  }
+  code {
+    background-color: #333 !important;
+  }
+  .box {
+    background-color: #333 !important;
+    border: 1px solid #444;
+  }
+  #pkgsearch-field {
+    color: #ddd !important;
+    background-color: #333 !important;
+    border: 1px solid #444;
+  }
+  /* Package page */
+  #id_q {
+    background-color: #333 !important;
+    color: #ddd !important;
+    border: 2px solid #444;
+  }
+  #id_arch {
+    background-color: #333 !important;
+    color: #ddd !important;
+    border: 2px solid #444;
+  }
+  #id_repo {
+    background-color: #333 !important;
+    color: #ddd !important;
+    border: 2px solid #444;
+  }
+  input[type='submit'],
+  input.password,
+  input.text,
+  input[type='text'],
+  select {
+    background-color: #333 !important;
+    color: #ddd !important;
+    border: 2px solid #444;
+  }
+  tr:nth-child(even) {
+    background-color: #333 !important;
+  }
+  tr:nth-child(odd) {
+    background-color: #444 !important;
+  }
+  th {
+    background-color: #333 !important;
+  }
+  /* Forum page */
+  .pun .punwrap {
+    background-color: #333 !important;
+    color: #ddd !important;
+    border: 2px solid #444;
+  }
+  .pun {
+    background-color: #222 !important;
+  }
+  #brdmenu {
+    background-color: #333 !important;
+  }
+  #brdmenu a {
+    border: 0px !important;
+    background-color: #333 !important;
+  }
+  .pun {
+    color: #ddd !important;
+  }
+  .pun .blocktable th {
+    color: #ddd !important;
+  }
+  #punindex .blocktable h2 {
+    color: #ddd !important;
+  }
+  .pun .blockpost {
+    background-color: #333 !important;
+    color: #ddd !important;
+    border: 2px solid #444;
+  }
+  .pun .blockpost h2 {
+    background-color: #333 !important;
+    color: #ddd !important;
+  }
+  .pun .blockpost .postright {
+    background-color: #333 !important;
+    color: #ddd !important;
+  }
+  .pun .postmsg {
+    color: #ddd !important;
+  }
+  .pun .blockpost .postbody,
+  .pun .blockpost .postfoot {
+    background-color: #333 !important;
+  }
+  /* Bugs page */
+  div#menu,
+  div#pm-menu,
+  div#search {
+    background-color: #333 !important;
+    border: 2px solid #444;
+  }
+  div#menu,
+  div#pm-menu {
+    margin: 0 5px;
+    padding: 0.5em 5px 0.5em 5px;
+  }
+  div#tasklist {
+    background-color: #333 !important;
+    border: 2px solid #444;
+  }
+  div#tasklist table td {
+    border-bottom: 2px solid #444;
+  }
+  div#taskdetails,
+  div#comments {
+    background-color: #333 !important;
+    border: 2px solid #444;
+    color: #ddd !important;
+  }
+  div#taskdetails table tbody tr {
+    background-color: #333 !important;
+  }
+  #submenu a {
+    background-color: #333 !important;
+    border: 2px solid #444;
+    color: #ddd !important;
+    border-bottom-color: #444 !important;
+  }
+  /* Security page */
+  td pre {
+    background-color: inherit !important;
+  }
+  html {
+    background-color: #222 !important;
+  }
+  /* AUR page */
+  div .box {
+    border: 1px solid #444;
+  }
+  table#pkginfo tbody tr td {
+    background-color: #333 !important;
+  }
+  #pkgdetails #detailslinks > div {
+    background-color: #444 !important;
+    border: 1px solid #555;
+  }
+  li form input {
+    background-color: #444 !important;
+  }
+}

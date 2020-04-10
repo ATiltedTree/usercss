@@ -1,0 +1,181 @@
+/* ==UserStyle==
+@name           ArchLinux Dark
+@namespace      ATiltedTree
+@homepageURL    https://github.com/ATiltedTree/usercss
+@updateURL      https://raw.githubusercontent.com/ATiltedTree/usercss/master/github-wide.user.css
+@version        1.0.0
+@license        MIT
+@description    A dark theme for the ArchLinux website
+@author         ATiltedTree
+==/UserStyle== */
+
+@-moz-document regexp("^https?:\\/\\/((aur|www|bbs|bugs|security)\\.)?archlinux\\.org\\/.*$") {
+  $level-0-color: #222;
+  $level-0-color-border: #333;
+  $level-1-color: #333;
+  $level-1-color-border: #444;
+  $level-2-color: #444;
+  $level-2-color-border: #555;
+  $text-color: #ddd;
+  $link-color: rgb(92, 196, 255);
+
+  /* Main page */
+  a:link {
+    color: $link-color;
+  }
+  body,
+  #punindex {
+    background-color: $level-0-color !important;
+    color: $text-color !important;
+  }
+  pre {
+    background-color: $level-1-color !important;
+    border: 1px solid $level-1-color-border;
+  }
+  code {
+    background-color: $level-1-color !important;
+  }
+  .box {
+    background-color: $level-1-color !important;
+    border: 1px solid $level-1-color-border;
+  }
+  #pkgsearch-field {
+    color: $text-color !important;
+    background-color: $level-1-color !important;
+    border: 1px solid $level-1-color-border;
+  }
+  /* Package page */
+  #id_q {
+    background-color: $level-1-color !important;
+    color: $text-color !important;
+    border: 2px solid $level-1-color-border;
+  }
+  #id_arch {
+    background-color: $level-1-color !important;
+    color: $text-color !important;
+    border: 2px solid $level-1-color-border;
+  }
+  #id_repo {
+    background-color: $level-1-color !important;
+    color: $text-color !important;
+    border: 2px solid $level-1-color-border;
+  }
+  input[type='submit'],
+  input.password,
+  input.text,
+  input[type='text'],
+  select {
+    background-color: $level-1-color !important;
+    color: $text-color !important;
+    border: 2px solid $level-1-color-border;
+  }
+  tr:nth-child(even) {
+    background-color: $level-1-color !important;
+  }
+  tr:nth-child(odd) {
+    background-color: #444 !important;
+  }
+  th {
+    background-color: $level-1-color !important;
+  }
+  /* Forum page */
+  .pun .punwrap {
+    background-color: $level-1-color !important;
+    color: $text-color !important;
+    border: 2px solid $level-1-color-border;
+  }
+  .pun {
+    background-color: $level-0-color !important;
+  }
+  #brdmenu {
+    background-color: $level-1-color !important;
+  }
+  #brdmenu a {
+    border: 0px !important;
+    background-color: $level-1-color !important;
+  }
+  .pun {
+    color: $text-color !important;
+  }
+  .pun .blocktable th {
+    color: $text-color !important;
+  }
+  #punindex .blocktable h2 {
+    color: $text-color !important;
+  }
+  .pun .blockpost {
+    background-color: $level-1-color !important;
+    color: $text-color !important;
+    border: 2px solid #444;
+  }
+  .pun .blockpost h2 {
+    background-color: $level-1-color !important;
+    color: $text-color !important;
+  }
+  .pun .blockpost .postright {
+    background-color: $level-1-color !important;
+    color: $text-color !important;
+  }
+  .pun .postmsg {
+    color: $text-color !important;
+  }
+  .pun .blockpost .postbody,
+  .pun .blockpost .postfoot {
+    background-color: $level-1-color !important;
+  }
+  /* Bugs page */
+  div#menu,
+  div#pm-menu,
+  div#search {
+    background-color: $level-1-color !important;
+    border: 2px solid $level-1-color-border;
+  }
+  div#menu,
+  div#pm-menu {
+    margin: 0 5px;
+    padding: 0.5em 5px 0.5em 5px;
+  }
+  div#tasklist {
+    background-color: $level-1-color !important;
+    border: 2px solid $level-1-color-border;
+  }
+  div#tasklist table td {
+    border-bottom: 2px solid $level-1-color-border;
+  }
+  div#taskdetails,
+  div#comments {
+    background-color: $level-1-color !important;
+    border: 2px solid $level-1-color-border;
+    color: $text-color !important;
+  }
+  div#taskdetails table tbody tr {
+    background-color: $level-1-color !important;
+  }
+  #submenu a {
+    background-color: $level-1-color !important;
+    border: 2px solid $level-1-color-border;
+    color: $text-color !important;
+    border-bottom-color: $level-1-color-border !important;
+  }
+  /* Security page */
+  td pre {
+    background-color: inherit !important;
+  }
+  html {
+    background-color: $level-0-color !important;
+  }
+  /* AUR page */
+  div .box {
+    border: 1px solid $level-1-color-border;
+  }
+  table#pkginfo tbody tr td {
+    background-color: $level-1-color !important;
+  }
+  #pkgdetails #detailslinks > div {
+    background-color: $level-2-color !important;
+    border: 1px solid $level-2-color-border;
+  }
+  li form input {
+    background-color: $level-2-color !important;
+  }
+}

@@ -9,6 +9,7 @@
 @author         ATiltedTree
 ==/UserStyle== */
 @-moz-document regexp("^https?:\/\/((gist|guides|help|lab|launch-editor|raw|resources|status|developer)\.)?github\.com\/((?!generated_pages/preview).)*$"), domain("githubusercontent.com"), domain("graphql-explorer.githubapp.com"), domain("www.githubstatus.com") {
+  $padding: 16px;
   .container-lg,
   .container-xl,
   .container,
@@ -27,8 +28,8 @@
   .container,
   .repohead-details-container,
   .new-repo-container {
-    padding-right: 16px !important;
-    padding-left: 16px !important;
+    padding-right: $padding !important;
+    padding-left: $padding !important;
   }
   .timeline-new-comment {
     margin-bottom: 0;
