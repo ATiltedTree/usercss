@@ -1,6 +1,4 @@
 {
-  "name": "usercss",
-  "version": "1.0.0",
   "description": "usercss's made by me",
   "scripts": {
     "build": "node ./scripts/build.js"
@@ -9,22 +7,15 @@
     "type": "git",
     "url": "git+https://github.com/ATiltedTree/usercss.git"
   },
-  "keywords": [
-    "usercss"
-  ],
   "author": "ATiltedTree",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ATiltedTree/usercss/issues"
-  },
-  "homepage": "https://github.com/ATiltedTree/usercss#readme",
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.0.1",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb-base": "^14.1.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.20.2",
-    "node-sass": "^4.14.1",
     "eslint-plugin-prettier": "^3.1.3",
+    "node-sass": "^4.14.1",
     "prettier": "^2.0.5"
   }
 }
